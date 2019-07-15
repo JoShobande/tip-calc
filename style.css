@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.container{
+    width: 25%;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border-top: none;
+    background: white;
+    text-align: left;
+    margin-top: 20px;    
+}
+#title{ 
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    background:brown;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+    text-align: center; 
+    height: 50px; 
+}
+
+.titleName{
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.content{
+    padding: 15px;
+}
+
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+}
+select{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+input[type="number"]{
+    width: 200px;
+    height: 30px 
+}
+
+input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    background: red;
+    border: none;
+    border-radius: 5px;    
+}
+
+.bottom{
+    text-align: center;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 25px;
+  
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: lightcoral;
+}
+
+
